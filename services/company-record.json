@@ -1,0 +1,223 @@
+    { 
+      "company" : 
+      { 
+        "metadata" : 
+        [
+            {
+                "name" : "title"
+                ,"value" : "BigCo Company Records"
+              }
+            ,
+            {
+                "name" : "author"
+                ,"value" : "Mike Amundsen"
+              }
+            ,
+            {
+                "name" : "release"
+                ,"value" : "1.0.0"
+              }
+          ],
+          "links" : 
+          [
+              {
+                  "id" : "self"
+                  ,"name" : "self"
+                  ,"href" : "http://company-atk.herokuapp.com/10274339j9p"
+                  ,"rel" : "self colllection company"
+                  ,"tags" : "collection company self home list item"
+                  ,"title" : "Self"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "home"
+                  ,"name" : "home"
+                  ,"href" : "http://company-atk.herokuapp.com/"
+                  ,"rel" : "collection company"
+                  ,"tags" : "collection company home list item"
+                  ,"title" : "Home"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "list"
+                  ,"name" : "list"
+                  ,"href" : "http://company-atk.herokuapp.com/list/"
+                  ,"rel" : "collection company"
+                  ,"tags" : "collection company home list item"
+                  ,"title" : "List"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+	      ]	      
+              }
+              ,
+              {
+                  "id" : "filter"
+                  ,"name" : "filter"
+                  ,"href" : "http://company-atk.herokuapp.com/filter/"
+                  ,"rel" : "collection company filter"
+                  ,"tags" : "collection company filter list item"
+                  ,"title" : "Search"
+                  ,"method" : "GET"
+                  ,"properties" : 
+              [
+		{
+		    "name" : "status"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "companyName"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "stateProvince"
+		    ,"value" : ""
+		}
+                ,
+		{
+		    "name" : "country"
+		    ,"value" : ""
+		}
+	      ]	      
+              }
+          ],
+          "items" : 
+          [
+              {
+                "links" : 
+                [
+                    {
+                        "id" : "read_10274339j9p"
+                        ,"name" : "read"
+                        ,"href" : "http://company-atk.herokuapp.com/10274339j9p"
+                        ,"rel" : "item company read"
+                        ,"title" : "Read"
+                        ,"method" : "GET"
+                        ,"properties" : 
+                    [
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "update_10274339j9p"
+                        ,"name" : "update"
+                        ,"href" : "http://company-atk.herokuapp.com/10274339j9p"
+                        ,"rel" : "item edit-form company"
+                        ,"tags" : "company list item"
+                        ,"title" : "Edit"
+                        ,"method" : "PUT"
+                        ,"properties" : 
+                    [
+          {
+              "name" : "id"
+              ,"value" : "10274339j9p"
+          }
+                      ,
+          {
+              "name" : "companyName"
+              ,"value" : "mike-co"
+          }
+                      ,
+          {
+              "name" : "email"
+              ,"value" : "mike-co@gmail.com"
+          }
+                      ,
+          {
+              "name" : "status"
+              ,"value" : "pending"
+          }
+                      ,
+          {
+              "name" : "streetAddress"
+              ,"value" : ""
+          }
+                      ,
+          {
+              "name" : "city"
+              ,"value" : ""
+          }
+                      ,
+          {
+              "name" : "stateProvince"
+              ,"value" : ""
+          }
+                      ,
+          {
+              "name" : "postalCode"
+              ,"value" : ""
+          }
+                      ,
+          {
+              "name" : "country"
+              ,"value" : ""
+          }
+                      ,
+          {
+              "name" : "telephone"
+              ,"value" : ""
+          }
+                      ,
+          {
+              "name" : "email"
+              ,"value" : "mike-co@gmail.com"
+          }
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "status_10274339j9p"
+                        ,"name" : "status"
+                        ,"href" : "http://company-atk.herokuapp.com/status/10274339j9p"
+                        ,"rel" : "item company status"
+                        ,"tags" : "company item list status"
+                        ,"title" : "Status"
+                        ,"method" : "PATCH"
+                        ,"properties" : 
+                    [
+          {
+              "name" : "status"
+              ,"value" : "pending"
+          }
+              ]	      
+                    }
+                    ,
+                    {
+                        "id" : "remove_10274339j9p"
+                        ,"name" : "remove"
+                        ,"href" : "http://company-atk.herokuapp.com/10274339j9p"
+                        ,"rel" : "item company remove"
+                        ,"title" : "Remove"
+                        ,"method" : "DELETE"
+                        ,"properties" : 
+                    [
+              ]	      
+                    }
+                ]
+                ,"id" : "10274339j9p"
+                ,"companyName" : "mike-co"
+                ,"streetAddress" : ""
+                ,"city" : ""
+                ,"stateProvince" : ""
+                ,"postalCode" : ""
+                ,"country" : ""
+                ,"telephone" : ""
+                ,"email" : "mike-co@gmail.com"
+                ,"status" : "pending"
+                ,"dateCreated" : "2020-03-12T03:22:10.629Z"
+                ,"dateUpdated" : "2020-03-12T03:22:10.629Z"
+            }
+          ]
+        }
+     }
+  
